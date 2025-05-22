@@ -1,36 +1,36 @@
 {
-  "name": "nestjs-plugins",
-  "private": true,
-  "repository": "git@github.com:g59/nestjs-plugins.git",
-  "author": "g59",
-  "engines": {
-    "npm": "^10.0.0"
-  },
-  "version": "10.0.0",
-  "scripts": {
-    "build": "npm run build --workspaces",
-    "clean": "npm run clean --workspaces",
-    "lint": "npm run lint --workspaces",
-    "test": "jest"
-  },
-  "devDependencies": {
-    "@9renpoto/tsconfig": "^7.9.0",
-    "@nestjs/testing": "^11.0.16",
-    "@types/jest": "^29.5.14",
-    "jest-mock-extended": "^3.0.7",
-    "rimraf": "^6.0.1",
-    "ts-jest": "^29.3.4"
-  },
-  "jest": {
-    "preset": "ts-jest",
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "packages/*/src/*.ts"
-    ],
-    "testEnvironment": "node"
-  },
-  "workspaces": [
-    "packages/*",
-    "example"
-  ]
+    "name": "nestjs-plugins",
+    "private": true,
+    "repository": "git@github.com:trinobank-gustavofelizola/nestjs-plugins.git",
+    "author": "g59",
+    "engines": {
+        "npm": "^11.0.0"
+    },
+    "version": "10.0.1",
+    "scripts": {
+        "build": "npm run build --workspaces",
+        "clean": "npm run clean --workspaces",
+        "lint": "npm run lint --workspaces",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "@9renpoto/tsconfig": "^7.9.0",
+        "@nestjs/testing": "^11.0.16",
+        "@types/jest": "^29.5.14",
+        "jest-mock-extended": "^3.0.7",
+        "rimraf": "^6.0.1",
+        "ts-jest": "^29.3.4"
+    },
+    "jest": {
+        "preset": "ts-jest",
+        "collectCoverage": true,
+        "collectCoverageFrom": [
+            "packages/*/src/*.ts"
+        ],
+        "testEnvironment": "node"
+    },
+    "workspaces": [
+        "packages/*",
+        "example"
+    ]
 }
