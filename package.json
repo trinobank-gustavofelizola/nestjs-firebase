@@ -19,8 +19,18 @@
         "firebase-admin": "^12.0.0 || ^13.0.0"
     },
     "devDependencies": {
+        "@9renpoto/tsconfig": "^7.9.0",
         "@google-cloud/firestore": "^7.11.1",
-        "@google-cloud/storage": "^7.16.0"
+        "@google-cloud/storage": "^7.16.0",
+        "@nestjs/testing": "^11.1.2",
+        "@types/jest": "^29.5.14",
+        "jest-mock-extended": "^4.0.0-beta1",
+        "rimraf": "^6.0.1",
+        "ts-jest": "^29.3.4",
+        "tsc": "^2.0.4"
     },
-    "types": "lib/index.d.ts"
+    "types": "lib/index.d.ts",
+    "dependencies": {
+        "typescript": "^5.8.3"
+    }
 }
