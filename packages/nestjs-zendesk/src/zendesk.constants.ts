@@ -1,2 +1,0 @@
-export const ZENDESK_MODULE = "ZENDESK_MODULE";
-export const ZENDESK_TOKEN = "ZENDESK_TOKEN";
